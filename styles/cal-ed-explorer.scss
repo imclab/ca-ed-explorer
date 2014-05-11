@@ -1,0 +1,78 @@
+
+body,html{
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*
+.districts path{
+  fill:#eee;
+  stroke: white;
+  stroke-width:.25px;
+}
+
+.districts path:hover{
+  stroke-width: 2px;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  padding: 5px 15px;             
+  font-size: 10px;     
+  background: white;
+  border: 1px solid #ccc;      
+  border-radius: 1px;  
+
+  pointer-events: none;         
+}    
+
+.legend {
+  font-size: 12px;
+}*/
+
+
+svg {
+  font: 10px sans-serif;
+}
+
+.dimension.selected text{
+  font-weight:bold;
+}
+
+.dimension.selected .domain{
+  stroke-width:2px;
+}
+
+.background path {
+  fill: none;
+  stroke: #ccc;
+  stroke-opacity: .3;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+  stroke: steelblue;
+  stroke-opacity: .3;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff;
+  cursor: move;
+}

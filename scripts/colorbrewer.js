@@ -1,3 +1,4 @@
+// Copied from D3: https://github.com/mbostock/d3/blob/master/lib/colorbrewer/colorbrewer.js
 // This product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).
 var colorbrewer = {YlGn: {
 3: ["#f7fcb9","#addd8e","#31a354"],

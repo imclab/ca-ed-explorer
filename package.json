@@ -1,0 +1,32 @@
+{
+  "name": "ca-ed-explorer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "dev-dependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-uglify": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oztu/ca-ed-explorer.git"
+  },
+  "author": "Ozan Turgut <ozanturgut@gmail.com",
+  "license": "APACHE 2",
+  "bugs": {
+    "url": "https://github.com/oztu/ca-ed-explorer/issues"
+  },
+  "homepage": "https://github.com/oztu/ca-ed-explorer",
+  "dependencies": {
+    "browserify": "^3.46.1",
+    "grunt-browserify": "^2.0.8"
+  }
+}
